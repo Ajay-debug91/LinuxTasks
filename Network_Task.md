@@ -60,6 +60,5 @@ free -h
 <img width="808" height="229" alt="image" src="https://github.com/user-attachments/assets/a067c14d-cc3e-4e24-b613-77c64c735393" />
 
 
-D. Test connectivity between 2 nodes
-1. Ping (basic connectivity)
+
 
