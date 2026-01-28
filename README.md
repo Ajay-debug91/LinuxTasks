@@ -1,3 +1,8 @@
+Set permission with a numeric value
+r (read) = 4
+w (write) = 2
+x (execute) = 1
+
 Step 1: Create the file
 
 touch /home/demo.txt
