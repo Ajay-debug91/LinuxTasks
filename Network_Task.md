@@ -1,4 +1,5 @@
 1️⃣ Get IP address, check CPU/memory, test connectivity
+
 A. Get the IP address of a domain (guvi.in)
 
 You can use any of these 👇
