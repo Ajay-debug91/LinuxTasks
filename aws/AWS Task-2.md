@@ -107,3 +107,6 @@ Step 8: Launch Linux EC2 in Public Subnet
 
 <img width="1600" height="856" alt="image" src="https://github.com/user-attachments/assets/3d31fdbf-4e9c-4465-a7d0-3a4b41ddcfc3" />
 
+
+<img width="1600" height="859" alt="image" src="https://github.com/user-attachments/assets/58f83d98-e4ef-4295-a2f6-b81e38edd80d" />
+
