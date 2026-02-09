@@ -57,7 +57,7 @@ Step 4: Create Private Subnet (256 IPs)
 
 
 
-Step 5: Create Route Table for Public Subnet
+Step 5: Create a Route Table for Public Subnet
 
 
 <img width="1600" height="702" alt="image" src="https://github.com/user-attachments/assets/8de78e13-5cbc-4549-9705-a9986f8b7296" />
@@ -106,13 +106,4 @@ Step 8: Launch Linux EC2 in Public Subnet
 <img width="1600" height="714" alt="image" src="https://github.com/user-attachments/assets/a152577c-ec0d-470a-9b09-19b0d0e8432a" />
 
 <img width="1600" height="856" alt="image" src="https://github.com/user-attachments/assets/3d31fdbf-4e9c-4465-a7d0-3a4b41ddcfc3" />
-
-Step 9: Verify Internet Access
-
-Copy Public IPv4 address
-
-Connect using SSH:
-
-![Uploading image.png…]()
-
 
