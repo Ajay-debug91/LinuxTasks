@@ -52,16 +52,47 @@ AWS Task-4: EC2 + EBS + Snapshot (Linux & Windows)
 
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/b035827d-8fc1-4f8b-b139-4e8fb57400d6" />
 
+<img width="1600" height="856" alt="image" src="https://github.com/user-attachments/assets/89980fae-b554-41f2-b6a4-49f509c59edb" />
 
 
+<img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/435d2e0d-b2c6-452b-885d-dd7e0d158a77" />
 
+<img width="1600" height="852" alt="image" src="https://github.com/user-attachments/assets/e40486e6-62d5-4179-a286-8ef776dfef8c" />
 
+<img width="1600" height="864" alt="image" src="https://github.com/user-attachments/assets/2b8f30ea-9177-408c-b034-b01545d4b35d" />
 
+<img width="1600" height="861" alt="image" src="https://github.com/user-attachments/assets/4c7422b0-1863-4de1-bcd1-d4c03df3b97f" />
 
+<img width="1600" height="863" alt="image" src="https://github.com/user-attachments/assets/e9dd12cc-0b58-4f19-902c-bf07ad8ae2ae" />
 
+<img width="1600" height="857" alt="image" src="https://github.com/user-attachments/assets/ea5051da-8a32-4295-be6a-6222f8ff4691" />
 
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/b80633d3-9cf7-4e4c-b048-9dd0a7b1df02" />
 
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/340b0574-90e5-4a94-9e56-1f7cb280996b" />
 
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/bc0680e5-9656-4956-8e33-20149503fa93" />
 
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/7c9e28a0-65df-48f7-8322-1615a9eb2d3c" />
+
+<img width="1600" height="862" alt="image" src="https://github.com/user-attachments/assets/31deb00e-6ed4-4ce7-9f0d-509bc2ee7ef1" />
+
+<img width="1600" height="857" alt="image" src="https://github.com/user-attachments/assets/b6863e18-e6c6-4f67-9129-b0b9080a153b" />
+
+<img width="1600" height="865" alt="image" src="https://github.com/user-attachments/assets/ab48b240-4152-4d18-a106-fbe0ccd1f168" />
+
+<img width="1600" height="862" alt="image" src="https://github.com/user-attachments/assets/eac9e099-befd-4c9a-ac96-7fb8515f4420" />
+
+<img width="1600" height="856" alt="image" src="https://github.com/user-attachments/assets/11467391-aebb-42bd-8ddb-9113224d3485" />
+
+<img width="1600" height="861" alt="image" src="https://github.com/user-attachments/assets/4dc41958-5079-4f80-b2c5-276616116e6d" />
+
+<img width="1600" height="867" alt="image" src="https://github.com/user-attachments/assets/714c783c-9b72-4a71-a42d-0697abe880ba" />
+
+<img width="1600" height="867" alt="image" src="https://github.com/user-attachments/assets/964d58eb-03fd-456f-a445-5df95cede492" />
+
+<img width="1600" height="863" alt="image" src="https://github.com/user-attachments/assets/7f40a693-c630-40c4-96e9-cc685766f2a0" />
+
+<img width="1600" height="864" alt="image" src="https://github.com/user-attachments/assets/9ac84334-59fa-41e5-89a1-7ea2bf963be4" />
 
 
