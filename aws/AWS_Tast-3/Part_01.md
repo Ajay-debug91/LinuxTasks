@@ -1,3 +1,4 @@
+Part 1: Create an S3 Bucket (No Public Access) + View Upload Logs in CloudWatch
 
 <img width="1600" height="862" alt="image" src="https://github.com/user-attachments/assets/030aaed0-a4e0-4ebf-b453-178000a8d0ca" />
 
