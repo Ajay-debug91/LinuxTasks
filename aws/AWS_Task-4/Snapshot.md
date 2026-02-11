@@ -48,4 +48,20 @@ AWS Task-4: EC2 + EBS + Snapshot (Linux & Windows)
 
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/c5613a91-e0f0-41cf-9e13-d0116b7f5afe" />
 
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/76386aa4-4cd2-44c5-a5ad-0eaf641074b0" />
+
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/b035827d-8fc1-4f8b-b139-4e8fb57400d6" />
+
+
+
+
+
+
+
+
+
+
+
+
+
 
