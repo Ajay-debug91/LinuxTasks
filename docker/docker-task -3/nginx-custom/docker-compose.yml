@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  nginx:
+    image: yourdockerhubusername/custom-nginx:v1
+    container_name: custom-nginx
+    ports:
+      - "80:80"
+    volumes:
+      - /var/opt/nginx:/usr/share/nginx/html
