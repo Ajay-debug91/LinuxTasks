@@ -151,7 +151,7 @@ Manage Jenkins → Plugin Manager
 
 Role-based Authorization Strategy
 
-![Uploading image.png…]()
+<img width="1918" height="1013" alt="image" src="https://github.com/user-attachments/assets/4fb04034-85ab-482c-9ecb-2eec503c0025" />
 
 
 ## Configure:
