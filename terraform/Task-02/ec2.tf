@@ -179,7 +179,7 @@ resource "aws_instance" "mumbai_instance" {
 
 resource "aws_instance" "virginia_instance" {
   provider                    = aws.virginia
-  ami                         = "ami-0c02fb55956c7d316"
+  ami                         = "ami-0ec10929233384c7f"
   instance_type               = "t3.micro"
   key_name                    = aws_key_pair.virginia_key.key_name
   associate_public_ip_address = true
