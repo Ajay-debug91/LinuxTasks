@@ -78,6 +78,7 @@ Get admin password:
 ```bash
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
+<img width="1918" height="878" alt="image" src="https://github.com/user-attachments/assets/af5152b0-7e26-4ea7-bdc2-12eaaa65f07d" />
 
 ---
 
@@ -143,6 +144,7 @@ git push -u origin main
 chmod +x hello.sh
 ./hello.sh
 ```
+<img width="1913" height="872" alt="image" src="https://github.com/user-attachments/assets/1caa5f94-48f1-41ec-8478-92cddfaf1609" />
 
 ---
 
@@ -168,6 +170,7 @@ application/json
 ```
 Just the push event
 ```
+<img width="1918" height="892" alt="image" src="https://github.com/user-attachments/assets/a6af7df5-9464-4776-aa86-702147e92359" />
 
 ---
 
@@ -180,13 +183,21 @@ Just the push event
 2. Configure:
 
    * SMTP: smtp.gmail.com
-   * Port: 587
+   * Port: 465
    * Use TLS: Yes
 
 3. Add in Job:
 
    * Post-build → Editable Email Notification
    * Add your email
+
+<img width="1917" height="935" alt="image" src="https://github.com/user-attachments/assets/b0e4d9f3-a056-4fe1-8955-f9c75fbbf809" />
+
+<img width="1918" height="972" alt="image" src="https://github.com/user-attachments/assets/0c6c443a-e617-4aab-83e6-b17020d6afbe" />
+
+<img width="1918" height="955" alt="image" src="https://github.com/user-attachments/assets/642b08a3-c271-427d-967c-9dc950e9bd69" />
+
+<img width="1913" height="752" alt="image" src="https://github.com/user-attachments/assets/57e341a9-7c03-414b-ac84-2e6a51eda44f" />
 
 ---
 
@@ -198,6 +209,8 @@ git add .
 git commit -m "Test build"
 git push
 ```
+<img width="1918" height="971" alt="image" src="https://github.com/user-attachments/assets/fa4a7a22-1383-49de-b074-0cca49da3f42" />
+<img width="1918" height="968" alt="image" src="https://github.com/user-attachments/assets/ff1547ec-be7a-4521-ab69-23194634fa16" />
 
 ---
 
