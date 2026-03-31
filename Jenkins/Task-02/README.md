@@ -24,11 +24,13 @@ Create a simple script, push it to GitHub, configure Jenkins on AWS EC2, and tri
    * OS: Ubuntu 24.04 LTS
    * Instance Type: `t3.micro`
    * Key Pair: Create/download `.pem`
+<img width="1918" height="875" alt="image" src="https://github.com/user-attachments/assets/4e3e55e3-0dc2-4aa4-b69d-cf085bd549c0" />
 
 3. Security Group:
 
    * Port 22 (SSH)
    * Port 8080 (Jenkins)
+<img width="1918" height="826" alt="image" src="https://github.com/user-attachments/assets/de195238-6b7e-4f68-ad3c-eb25c9fa7372" />
 
 ---
 
@@ -37,6 +39,7 @@ Create a simple script, push it to GitHub, configure Jenkins on AWS EC2, and tri
 ```bash
 ssh -i "your-key.pem" ubuntu@<EC2-PUBLIC-IP>
 ```
+<img width="1911" height="877" alt="image" src="https://github.com/user-attachments/assets/fb158f92-a3c1-45c4-9488-b7dde5c743ab" />
 
 ---
 
