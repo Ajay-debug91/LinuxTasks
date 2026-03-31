@@ -21,8 +21,8 @@ Create a simple script, push it to GitHub, configure Jenkins on AWS EC2, and tri
 2. Configuration:
 
    * Name: `jenkins-server`
-   * OS: Ubuntu 22.04
-   * Instance Type: `t2.micro`
+   * OS: Ubuntu 24.04 LTS
+   * Instance Type: `t3.micro`
    * Key Pair: Create/download `.pem`
 
 3. Security Group:
