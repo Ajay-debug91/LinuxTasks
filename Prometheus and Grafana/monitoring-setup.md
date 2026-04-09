@@ -1,6 +1,6 @@
-# 🚀 Monitoring Setup (Prometheus + Grafana + Node Exporter)
+# Monitoring Setup (Prometheus + Grafana + Node Exporter)
 
-## 🧱 Architecture Overview
+## Architecture Overview
 
 * **Node Exporter** → Collects system metrics (CPU, RAM, Disk)
 * **Prometheus** → Scrapes metrics from Node Exporter
@@ -8,7 +8,7 @@
 
 ---
 
-## ✅ Step 1: Launch EC2 Instance (AWS)
+## Step 1: Launch EC2 Instance (AWS)
 
 * Instance Type: `t2.micro` (free tier)
 * OS: Ubuntu 22.04
@@ -21,7 +21,7 @@
 
 ---
 
-## ✅ Step 2: Install Prometheus
+## Step 2: Install Prometheus
 
 ```bash
 # Create user
@@ -49,7 +49,7 @@ sudo cp prometheus.yml /etc/prometheus/
 
 ---
 
-## ✅ Step 3: Configure Prometheus
+## Step 3: Configure Prometheus
 
 ```bash
 sudo vim /etc/prometheus/prometheus.yml
@@ -64,7 +64,7 @@ scrape_configs:
 
 ---
 
-## ✅ Step 4: Create Prometheus Service
+## Step 4: Create Prometheus Service
 
 ```bash
 sudo vim /etc/systemd/system/prometheus.service
@@ -94,7 +94,7 @@ sudo systemctl enable prometheus
 
 ---
 
-## ✅ Step 5: Install Node Exporter
+## Step 5: Install Node Exporter
 
 ```bash
 cd /tmp
@@ -108,7 +108,7 @@ sudo cp node_exporter /usr/local/bin/
 
 ---
 
-## ✅ Step 6: Create Node Exporter Service
+## Step 6: Create Node Exporter Service
 
 ```bash
 sudo vim /etc/systemd/system/node_exporter.service
@@ -134,7 +134,7 @@ sudo systemctl enable node_exporter
 
 ---
 
-## ✅ Step 7: Install Grafana
+## Step 7: Install Grafana
 
 ```bash
 sudo apt-get update
@@ -160,7 +160,7 @@ sudo systemctl enable grafana-server
 
 ---
 
-## ✅ Step 8: Access Services
+## Step 8: Access Services
 
 * Prometheus:
   `http://<EC2-IP>:9090`
@@ -174,7 +174,7 @@ sudo systemctl enable grafana-server
 
 ---
 
-## ✅ Step 9: Connect Prometheus to Grafana
+## Step 9: Connect Prometheus to Grafana
 
 1. Open Grafana UI
 2. Go to **Settings → Data Sources**
@@ -189,7 +189,7 @@ sudo systemctl enable grafana-server
 
 ---
 
-## ✅ Step 10: Create Dashboard
+## Step 10: Create Dashboard
 
 ### Option 1 (Recommended – Fast)
 
@@ -226,9 +226,9 @@ Steps:
 
 ---
 
-## 🔥 Common Issues & Fix
+## Common Issues & Fix
 
-### ❌ Port not accessible
+### Port not accessible
 
 ```bash
 sudo ufw allow 9090
@@ -236,7 +236,7 @@ sudo ufw allow 3000
 sudo ufw allow 9100
 ```
 
-### ❌ Service not starting
+### Service not starting
 
 ```bash
 systemctl status prometheus
@@ -245,15 +245,13 @@ journalctl -xe
 
 ---
 
-## 💡 Interview Tip
-
 > Node Exporter collects system metrics, Prometheus scrapes them, and Grafana visualizes them via dashboards.
 
 ---
 
-## ✅ Final Output
+## Final Output
 
-* 📊 Grafana Dashboard (CPU, RAM, Disk)
-* 📡 Prometheus scraping metrics
-* 🖥️ Node Exporter providing system metrics
+*  Grafana Dashboard (CPU, RAM, Disk)
+*  Prometheus scraping metrics
+*  Node Exporter providing system metrics
 
