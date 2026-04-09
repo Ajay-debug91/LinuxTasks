@@ -106,13 +106,22 @@ sudo systemctl enable prometheus
 
 ```bash
 cd /tmp
-wget https://github.com/prometheus/node_exporter/releases/latest/download/node_exporter-*.linux-amd64.tar.gz
+wget https://github.com/prometheus/node_exporter/releases/download/v1.10.2/node_exporter-1.10.2.linux-amd64.tar.gz
 
-tar -xvf node_exporter-*.tar.gz
-cd node_exporter-*
+tar -xvf node_exporter-1.10.2.linux-amd64.tar.gz
+cd node_exporter-1.10.2.linux-amd64
+./node_exporter
+
+http://54.234.123.117:9100/metrics
 
 sudo cp node_exporter /usr/local/bin/
+
 ```
+<img width="1918" height="227" alt="image" src="https://github.com/user-attachments/assets/9bd4b285-b116-4c90-bb55-ea35e06a01c3" />
+
+
+
+<img width="1918" height="970" alt="image" src="https://github.com/user-attachments/assets/8b76ba03-0b7d-49b3-8228-b3ac052f0233" />
 
 ---
 
@@ -133,7 +142,7 @@ ExecStart=/usr/local/bin/node_exporter
 [Install]
 WantedBy=default.target
 ```
-
+<img width="1918" height="187" alt="image" src="https://github.com/user-attachments/assets/f976f35a-ce54-4c61-ba89-3cb05e6f3b8c" />
 ```bash
 sudo systemctl daemon-reload
 sudo systemctl start node_exporter
