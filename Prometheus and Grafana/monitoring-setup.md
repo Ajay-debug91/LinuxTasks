@@ -312,6 +312,16 @@ journalctl -xe
 ## Final Output
 
 *  Grafana Dashboard (CPU, RAM, Disk)
+
+<img width="1918" height="967" alt="image" src="https://github.com/user-attachments/assets/b7c964a2-067f-49df-8816-52e2f5004b52" />
+
+  
 *  Prometheus scraping metrics
+
+<img width="1918" height="817" alt="image" src="https://github.com/user-attachments/assets/732b98ea-f4ae-43e1-9a21-1cb03f3ac55d" />
+
+  
 *  Node Exporter providing system metrics
+
+<img width="1907" height="978" alt="image" src="https://github.com/user-attachments/assets/38200b24-4dbb-4f32-bf42-d7b195cc8479" />
 
